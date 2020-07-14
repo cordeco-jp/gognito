@@ -5,13 +5,13 @@ gognito provides the way to verify Cognito UserPool's JSON Web Token and handle 
 ## Installation
 
 ```sh
-go get "github.com/itomofumi/gognito"
+go get "github.com/cordeco-jp/gognito"
 ```
 
 If you use `dep`
 
 ```sh
-dep ensure -add "github.com/itomofumi/gognito"
+dep ensure -add "github.com/cordeco-jp/gognito"
 ```
 
 ## Example
@@ -22,7 +22,7 @@ package main
 import (
     "os"
     "log"
-    "github.com/itomofumi/gognito/auth"
+    "github.com/cordeco-jp/gognito/auth"
 )
 
 func main(){
